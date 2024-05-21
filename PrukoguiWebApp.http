@@ -1,0 +1,16 @@
+﻿@PrukoguiWebApp_HostAddress = https://localhost:44313
+
+GET {{PrukoguiWebApp_HostAddress}}/items/
+
+###
+
+
+POST {{PrukoguiWebApp_HostAddress}}/items/
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
